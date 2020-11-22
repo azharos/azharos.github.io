@@ -4,6 +4,10 @@ html {
     scroll-behavior: smooth;
 }
 
+nav {
+    transition: all .5s;
+}
+
 .jumbotron {
     // margin-bottom: 0 !important;
     border-radius: 0;
