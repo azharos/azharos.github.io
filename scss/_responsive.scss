@@ -1,0 +1,73 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .about {
+        padding-top: 3rem;
+        padding-bottom: 3.3rem;
+    }
+
+    .service {
+        .md5 {
+            width: 100%;
+        }
+    }
+
+    .portofolio {
+        .w-200 {
+            width: 120px !important;
+            height: 120px;
+        }
+    }
+
+    .testimonial {
+        .col-md-4 {
+            margin-top: 2rem;
+        }
+    }
+
+    footer {
+        .col-md-6:first-child {
+            text-align: center;
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .about {
+        padding-top: 3rem;
+        padding-bottom: 3.3rem;
+    }
+
+    .service {
+        .md5 {
+            width: 100%;
+        }
+
+        .content.order-1 {
+            order: 2;
+        }
+
+        .image-2.order-2 {
+            order: 1;
+        }
+    }
+
+    .portofolio {
+        .w-200 {
+            width: 120px !important;
+            height: 120px;
+        }
+    }
+
+    .testimonial {
+        .col-md-4 {
+            margin-top: 2rem !important;
+        }
+    }
+
+    footer {
+        .col-md-6:first-child {
+            text-align: center;
+        }
+    }
+}
