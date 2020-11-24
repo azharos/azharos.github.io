@@ -1,0 +1,53 @@
+.bg-black {
+  background-color: black;
+}
+
+.bg-dark-primary {
+  background-color: #172d44 !important;
+}
+
+.z-1 {
+  z-index: 9999;
+}
+
+.bg-dark-1 {
+  background-color: #1d2d50;
+}
+
+.bg-dark-2 {
+  background-color: #34626c;
+}
+
+.bg-dark-3 {
+  background-color: #16697a;
+}
+
+.bg-4 {
+  background-color: #790c5a;
+}
+
+.bg-5 {
+  background-color: #16697a;
+}
+
+.bg-6 {
+  background-color: #00454a;
+}
+
+.bg-red {
+  background-color: #af0404;
+}
+
+.bg-7 {
+  background-color: #232931;
+}
+
+.icon {
+  top: 50%;
+  left: 50%;
+  font-size: 20em;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */

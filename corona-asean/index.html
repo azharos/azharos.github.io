@@ -4,11 +4,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Corona ASEAN</title>
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
 </head>
 
 <body>
-    <h1>Berhasil</h1>
+
+    <!-- header -->
+    <header class="text-dark bg-muted p-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <span id="hr">Senin</span>,&nbsp;<span id="tgl">01</span>&nbsp;<span
+                        id="bln">Januari</span>&nbsp;<span id="thn">1970</span>
+                </div>
+                <div class="col-4 text-right">
+                    <span id="jam">00</span>:<span id="menit">00</span>:<span id="detik">00</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- jumbotron -->
+    <div class="jumbotron bg-dark-primary rounded-0 text-white text-center position-relative z-1">
+        <h1 class="display-4 font-weight-bold z-1 position-relative">WEB INFORMATION CORONA</h1>
+        <h1 class="display-4 font-weight-bold z-1 position-relative"><span id="typed"></span></h1>
+        <p class="font-weight-lighter mt-5 z-1 position-relative">
+            ASEAN (Association of Southeast Asian Nations atau Perhimpunan Bangsa-Bangsa Asia Tenggara) </p>
+        <a class="text-light z-1 position-relative" href="https://www.instagram.com/azharozhisaputra/"><i
+                class="fab fa-instagram fa-fw"></i></a>
+        <a class="text-light z-1 position-relative" href="https://www.linkedin.com/in/azhar-ozhi-saputra-95b6521a5/"><i
+                class="fab fa-fw fa-linkedin"></i></a>
+        <a class="text-light z-1 position-relative" href="https://www.youtube.com/channel/UCZVK-ANlL8ANh-TqSmjIypg"><i
+                class="fab fa-fw fa-youtube"></i></a>
+        <a class="text-light z-1 position-relative" href="https://github.com/azharos"><i
+                class="fab fa-fw fa-github"></i></a>
+        <i class="fas fa-bug position-absolute icon"></i>
+        <!-- <p class="z-1 position-relative">I'm <span id="typed"></span></p> -->
+    </div>
+
+    <div class="container">
+        <div class="row bg-secondary pt-5 pb-5 pr-3 pl-3 mb-5 rounded" id="thailand">
+            <div class="col-md-6 text-white">
+                <h1 class="font-weight-bold mb-3">Thailand</h1>
+                <hr class="bg-light">
+                <p class="lead">Update Information :</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item  bg-dark-primary text-white">ASIA TENGGARA</li>
+                    <li class="list-group-item"><i class="fas fa-user-check"></i>&nbsp;Dikonfirmasi : </li>
+                    <li class="list-group-item"><i class="fas fa-check"></i>&nbsp;Positif : </li>
+                    <li class="list-group-item"><i class="far fa-smile"></i>&nbsp;Sembuh : </li>
+                    <li class="list-group-item"><i class="far fa-frown-open"></i>&nbsp;Meninggal : </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-success pt-5 pb-5 pr-3 pl-3 mb-5 rounded" id="singapore">
+            <div class="col-md-6 text-white">
+                <h1 class="font-weight-bold mb-3">Singapore</h1>
+                <hr class="bg-light">
+                <p class="lead">Update Information :</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item  bg-dark-1 text-white">ASIA TENGGARA</li>
+                    <li class="list-group-item"><i class="fas fa-user-check"></i>&nbsp;Dikonfirmasi : </li>
+                    <li class="list-group-item"><i class="fas fa-check"></i>&nbsp;Positif : </li>
+                    <li class="list-group-item"><i class="far fa-smile"></i>&nbsp;Sembuh : </li>
+                    <li class="list-group-item"><i class="far fa-frown-open"></i>&nbsp;Meninggal : </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-red pt-5 pb-5 pr-3 pl-3 mb-5 rounded" id="indonesia">
+            <div class="col-md-6 text-white">
+                <h1 class="font-weight-bold mb-3">Indonesia</h1>
+                <hr class="bg-light">
+                <p class="lead">Update Information :</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item bg-6 text-white">ASIA TENGGARA</li>
+                    <li class="list-group-item"><i class="fas fa-user-check"></i>&nbsp;Dikonfirmasi : </li>
+                    <li class="list-group-item"><i class="fas fa-check"></i>&nbsp;Positif : </li>
+                    <li class="list-group-item"><i class="far fa-smile"></i>&nbsp;Sembuh : </li>
+                    <li class="list-group-item"><i class="far fa-frown-open"></i>&nbsp;Meninggal : </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-dark-1 pt-5 pb-5 pr-3 pl-3 mb-5 rounded" id="malaysia">
+            <div class="col-md-6 text-white">
+                <h1 class="font-weight-bold mb-3">Malaysia</h1>
+                <hr class="bg-light">
+                <p class="lead">Update Information :</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item bg-dark-3 text-white">ASIA TENGGARA</li>
+                    <li class="list-group-item"><i class="fas fa-user-check"></i>&nbsp;Dikonfirmasi : </li>
+                    <li class="list-group-item"><i class="fas fa-check"></i>&nbsp;Positif : </li>
+                    <li class="list-group-item"><i class="far fa-smile"></i>&nbsp;Sembuh : </li>
+                    <li class="list-group-item"><i class="far fa-frown-open"></i>&nbsp;Meninggal : </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-4 pt-5 pb-5 pr-3 pl-3 mb-5 rounded" id="vietnam">
+            <div class="col-md-6 text-white">
+                <h1 class="font-weight-bold mb-3">Vietnam</h1>
+                <hr class="bg-light">
+                <p class="lead">Update Information :</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item bg-5 text-white">ASIA TENGGARA</li>
+                    <li class="list-group-item"><i class="fas fa-user-check"></i>&nbsp;Dikonfirmasi : </li>
+                    <li class="list-group-item"><i class="fas fa-check"></i>&nbsp;Positif : </li>
+                    <li class="list-group-item"><i class="far fa-smile"></i>&nbsp;Sembuh : </li>
+                    <li class="list-group-item"><i class="far fa-frown-open"></i>&nbsp;Meninggal : </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-danger pt-5 pb-5 pr-3 pl-3 mb-5 rounded" id="laos">
+            <div class="col-md-6 text-white">
+                <h1 class="font-weight-bold mb-3">Laos</h1>
+                <hr class="bg-light">
+                <p class="lead">Update Information :</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item bg-red text-white">ASIA TENGGARA</li>
+                    <li class="list-group-item"><i class="fas fa-user-check"></i>&nbsp;Dikonfirmasi : </li>
+                    <li class="list-group-item"><i class="fas fa-check"></i>&nbsp;Positif : </li>
+                    <li class="list-group-item"><i class="far fa-smile"></i>&nbsp;Sembuh : </li>
+                    <li class="list-group-item"><i class="far fa-frown-open"></i>&nbsp;Meninggal : </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-7 pt-5 pb-5 pr-3 pl-3 mb-5 rounded" id="kamboja">
+            <div class="col-md-6 text-white">
+                <h1 class="font-weight-bold mb-3">Cambodia</h1>
+                <hr class="bg-light">
+                <p class="lead">Update Information :</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item bg-4 text-white">ASIA TENGGARA</li>
+                    <li class="list-group-item"><i class="fas fa-user-check"></i>&nbsp;Dikonfirmasi : </li>
+                    <li class="list-group-item"><i class="fas fa-check"></i>&nbsp;Positif : </li>
+                    <li class="list-group-item"><i class="far fa-smile"></i>&nbsp;Sembuh : </li>
+                    <li class="list-group-item"><i class="far fa-frown-open"></i>&nbsp;Meninggal : </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-dark-3 pt-5 pb-5 pr-3 pl-3 mb-5 rounded" id="brunei">
+            <div class="col-md-6 text-white">
+                <h1 class="font-weight-bold mb-3">Brunei</h1>
+                <hr class="bg-light">
+                <p class="lead">Update Information :</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item bg-red text-white">ASIA TENGGARA</li>
+                    <li class="list-group-item"><i class="fas fa-user-check"></i>&nbsp;Dikonfirmasi : </li>
+                    <li class="list-group-item"><i class="fas fa-check"></i>&nbsp;Positif : </li>
+                    <li class="list-group-item"><i class="far fa-smile"></i>&nbsp;Sembuh : </li>
+                    <li class="list-group-item"><i class="far fa-frown-open"></i>&nbsp;Meninggal : </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-dark-1 pt-5 pb-5 pr-3 pl-3 mb-5 rounded" id="timorleste">
+            <div class="col-md-6 text-white">
+                <h1 class="font-weight-bold mb-3">Timor-Leste</h1>
+                <hr class="bg-light">
+                <p class="lead">Update Information :</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item bg-info text-white">ASIA TENGGARA</li>
+                    <li class="list-group-item"><i class="fas fa-user-check"></i>&nbsp;Dikonfirmasi : </li>
+                    <li class="list-group-item"><i class="fas fa-check"></i>&nbsp;Positif : </li>
+                    <li class="list-group-item"><i class="far fa-smile"></i>&nbsp;Sembuh : </li>
+                    <li class="list-group-item"><i class="far fa-frown-open"></i>&nbsp;Meninggal : </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-5 pt-5 pb-5 pr-3 pl-3 mb-5 rounded" id="filipina">
+            <div class="col-md-6 text-white">
+                <h1 class="font-weight-bold mb-3">Philippines</h1>
+                <hr class="bg-light">
+                <p class="lead">Update Information :</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item bg-success text-white">ASIA TENGGARA</li>
+                    <li class="list-group-item"><i class="fas fa-user-check"></i>&nbsp;Dikonfirmasi : </li>
+                    <li class="list-group-item"><i class="fas fa-check"></i>&nbsp;Positif : </li>
+                    <li class="list-group-item"><i class="far fa-smile"></i>&nbsp;Sembuh : </li>
+                    <li class="list-group-item"><i class="far fa-frown-open"></i>&nbsp;Meninggal : </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-12">
+                    <p class="user-select-none">Copyright &copy; Azhar Ozhi Saputra | Corona ASEAN</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+    <script src="vendor/jquery/jquery.slim.js"></script>
+    <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="assets/infocorona.js"></script>
+    <script src="assets/time.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ['Thailand', 'Singapore', 'Indonesia', 'Vietnam', 'Myanmar', 'Laos', 'Cambodia',
+                'Malaysia', 'Brunei', 'Timor Leste', 'Philippines'
+            ],
+            typeSpeed: 150,
+            backDelay: 1000,
+            backSpeed: 150,
+            loop: true
+        });
+    </script>
 </body>
 
 </html>
