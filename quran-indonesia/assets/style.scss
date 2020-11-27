@@ -4,6 +4,10 @@
     background-size: cover;
     height: 90vh;
     background-attachment: fixed;
+
+    img {
+        width: 400px !important;
+    }
 }
 
 .bg-1 {
@@ -27,11 +31,14 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+    .jumbotron {
+        img {
+            margin-top: 5rem;
+            width: 300px !important;
+        }
+    }
+
     footer .col-md-6 {
         text-align: center;
     }
-
-    // footer .col-md-6.text-right {
-    //     text-align: center;
-    // }
 }

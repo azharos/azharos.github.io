@@ -6,6 +6,10 @@
   background-attachment: fixed;
 }
 
+.jumbotron img {
+  width: 400px !important;
+}
+
 .bg-1 {
   background-color: #0e1215;
 }
@@ -25,6 +29,10 @@
 }
 
 @media (max-width: 575.98px) {
+  .jumbotron img {
+    margin-top: 5rem;
+    width: 300px !important;
+  }
   footer .col-md-6 {
     text-align: center;
   }
