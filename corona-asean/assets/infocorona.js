@@ -45,7 +45,7 @@ fetch("https://api.kawalcorona.com/")
 fetch("https://api.kawalcorona.com/")
 .then(res => res.json())
 .then(datas => {
-    const data = datas[82]["attributes"];
+    const data = datas[85]["attributes"];
     const waktu = data["Last_Update"];
     const update = new Date(waktu);
     const tanggal = update.getDate();
@@ -75,7 +75,7 @@ fetch("https://api.kawalcorona.com/")
 fetch("https://api.kawalcorona.com/")
 .then(res => res.json())
 .then(datas => {
-    const data = datas[20]["attributes"];
+    const data = datas[19]["attributes"];
     const waktu = data["Last_Update"];
     const update = new Date(waktu);
     const tanggal = update.getDate();
@@ -105,7 +105,7 @@ fetch("https://api.kawalcorona.com/")
 fetch("https://api.kawalcorona.com/")
 .then(res => res.json())
 .then(datas => {
-    const data = datas[83]["attributes"];
+    const data = datas[79]["attributes"];
     const waktu = data["Last_Update"];
     const update = new Date(waktu);
     const tanggal = update.getDate();
@@ -135,7 +135,7 @@ fetch("https://api.kawalcorona.com/")
 fetch("https://api.kawalcorona.com/")
 .then(res => res.json())
 .then(datas => {
-    const data = datas[158]["attributes"];
+    const data = datas[159]["attributes"];
     const waktu = data["Last_Update"];
     const update = new Date(waktu);
     const tanggal = update.getDate();
@@ -165,7 +165,7 @@ fetch("https://api.kawalcorona.com/")
 fetch("https://api.kawalcorona.com/")
 .then(res => res.json())
 .then(datas => {
-    const data = datas[184]["attributes"];
+    const data = datas[182]["attributes"];
     const waktu = data["Last_Update"];
     const update = new Date(waktu);
     const tanggal = update.getDate();
@@ -255,7 +255,7 @@ fetch("https://api.kawalcorona.com/")
 fetch("https://api.kawalcorona.com/")
 .then(res => res.json())
 .then(datas => {
-    const data = datas[182]["attributes"];
+    const data = datas[183]["attributes"];
     const waktu = data["Last_Update"];
     const update = new Date(waktu);
     const tanggal = update.getDate();
@@ -285,7 +285,7 @@ fetch("https://api.kawalcorona.com/")
 fetch("https://api.kawalcorona.com/")
 .then(res => res.json())
 .then(datas => {
-    const data = datas[26]["attributes"];
+    const data = datas[27]["attributes"];
     const waktu = data["Last_Update"];
     const update = new Date(waktu);
     const tanggal = update.getDate();

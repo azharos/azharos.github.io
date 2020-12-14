@@ -7,8 +7,8 @@ const menit = document.getElementById('menit');
 const detik = document.getElementById('detik');
 
 const m = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
-const h = ["Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu","Minggu"];
-const d = new Date().getDay() - 1;
+const h = ["Minggu","Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu"];
+const d = new Date().getDay();
 
 hari.innerHTML = h[d];
 tanggal.innerHTML = new Date().getDate();
