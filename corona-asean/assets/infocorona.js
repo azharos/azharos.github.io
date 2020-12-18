@@ -15,7 +15,7 @@ const bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "
 fetch("https://api.kawalcorona.com/")
 .then(res => res.json())
 .then(datas => {
-    const data = datas[143]["attributes"];
+    const data = datas[144]["attributes"];
     const waktu = data["Last_Update"];
     const update = new Date(waktu);
     const tanggal = update.getDate();
