@@ -39,7 +39,8 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#youtube">Youtube</a></li>
-                <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#blog">Blog</a></li> -->
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#fw">App Framework</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#speaker">Speaker</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Certifications">Certifications</a>
                 </li>
             </ul>
@@ -75,6 +76,7 @@
             </div>
         </section>
         <hr class="m-0" />
+
         <!-- Experience-->
         <section class="resume-section" id="experience">
             <div class="resume-section-content">
@@ -130,6 +132,7 @@
             </div>
         </section>
         <hr class="m-0" />
+
         <!-- Education-->
         <section class="resume-section" id="education">
             <div class="resume-section-content">
@@ -164,6 +167,7 @@
             </div>
         </section>
         <hr class="m-0" />
+
         <!-- Skills-->
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
@@ -208,6 +212,47 @@
                 </div>
             </div>
         </section>
+        <hr class="m-0" />
+
+        <!-- Framework -->
+        <section class="resume-section" id="fw">
+            <div class="resume-section-content">
+                <h2 class="mb-5">App Framework</h2>
+                <div class="row align-items-center">
+                    <div class="col-sm-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Logo.min.svg" class="img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+
+        <!-- Speaker -->
+        <section class="resume-section" id="speaker">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Speaker</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Mentor Web Developer</h3>
+                        <div class="subheading mb-0">Bootcamp Intelligo.id</div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Create Your Business Web With Vue JS</h3>
+                        <div class="subheading mb-0">Mini Class Intelligo.id</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
 
         <!-- Certifications-->
         <section class="resume-section" id="Certifications">
@@ -232,8 +277,8 @@
     <script>
         const videoYT = document.getElementById('video-youtube')
         fetch(
-                'https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyCrCAtr7lfds5YrJseZehfnfEbx59aR7RQ&channelId=UCZVK-ANlL8ANh-TqSmjIypg&maxResults=4&order=date'
-            )
+            'https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyCrCAtr7lfds5YrJseZehfnfEbx59aR7RQ&channelId=UCZVK-ANlL8ANh-TqSmjIypg&maxResults=4&order=date'
+        )
             .then(res => res.json())
             .then(datas => {
                 const videos = datas.items;
